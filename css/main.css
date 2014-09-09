@@ -51,9 +51,12 @@ img {
   font-weight: 300;
 }
 
+.main {
+  border-radius: 5px;
+}
+
 .main h1 {
   margin: 2rem 1rem;
-  border-radius: 20px;
 }
 
 .info {
