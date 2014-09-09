@@ -23,6 +23,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: #707070;
 }
 
 img {
@@ -30,17 +31,52 @@ img {
   width: 100%;
 }
 
-.hero-img {
-  margin: 0;
+.main {
+  overflow: hidden;
+  background-color: #ffffff;
 }
 
-.hero-img figure {
+.hero-img {
+  margin: 0;
   position: relative;
 }
 
 .hero-img figcaption {
   color: #ffffff;
   background-color: rgba(0,0,0,0.5);
-  padding: 20px 5px;
+  padding: 20px 10px;
   position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-weight: 300;
+}
+
+.main h1 {
+  margin: 2rem 1rem;
+  border-radius: 20px;
+}
+
+.info {
+  padding: 0;
+}
+
+.info li {
+  float: left;
+  list-style-type: none;
+  width: 33.333%;
+  border-left: 1px solid #c0c0c0;
+  padding: 0 1em;
+  margin-bottom: 2rem;
+}
+
+.info h2 {
+  text-transform: uppercase;
+  width: 33.333%;
+  color: #c0c0c0;
+  font-size: 16px;
+}
+
+.info h2,
+.info p {
+  margin: 0;
 }
